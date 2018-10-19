@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<package name="com.itmonkeys.bean"/>
+	</typeAliases>
+
+	<!-- 加载映射文件  -->
+	<mappers>
+	<!--  自动寻找名字和dao类名字相同的xml  -->
+		<package name="com.itmonkeys.dao"/>
+	</mappers>
+</configuration>
