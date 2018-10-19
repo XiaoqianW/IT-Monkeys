@@ -19,7 +19,7 @@ public class StudentController {
 	
 	@RequestMapping("students.do")
 	public ModelAndView studentList	() {
-		System.out.println("接收到请求");
+		System.out.println("项目");
 //		调用service对象的方法
 		List<Student> list = service.findStudents();
 		System.out.println(list);
